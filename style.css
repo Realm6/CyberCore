@@ -1,0 +1,59 @@
+/* Style for the body element */
+body {
+  background-color: #F2F2F2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the header element */
+header {
+  background-color: #333;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the h1 element in the header */
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  text-shadow: 3px 3px 2px rgba(136, 136, 136, 0.8);
+}
+
+/* Style for the main content area */
+main {
+  margin: 20px;
+}
+
+/* Style for the links in the main content area */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #FF5733;
+}
+
+/* Style for the footer element */
+footer {
+  background-color: #333;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  main {
+    margin: 10px;
+  }
+}
