@@ -27,7 +27,7 @@ header h1 {
 main {
   margin: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
   grid-gap: 10px;
 }
 
@@ -47,6 +47,11 @@ a {
 a:hover {
   background-color: #333;
   color: #FFF;
+}
+
+/* Style for the bottom button */
+.bottom-btn {
+  grid-column: 1 / -1;
 }
 
 /* Style for the footer element */
