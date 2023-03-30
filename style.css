@@ -1,6 +1,6 @@
 /* Style for the body element */
 body {
-  background-color: #000000;
+  background-color: #e396ff;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -10,7 +10,7 @@ body {
 
 /* Style for the header element */
 header {
-  background-color: #000000;
+  background-color: #e396ff;
   color: #dedede;
   padding: 20px;
   text-align: center;
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-  background-color: #33ff69;
+  background-color: #00ab06;
   color: #FFF;
 }
 
