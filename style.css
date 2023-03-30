@@ -34,18 +34,18 @@ main {
 /* Style for the links in the main content area */
 a {
   display: block;
-  background-color: #ff8400;
+  background-color: #33ff69;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
-  border: 2px solid #ff8400;
+  border: 2px solid #33ff69;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  background-color: #ff8400;
+  background-color: #33ff69;
   color: #FFF;
 }
 
