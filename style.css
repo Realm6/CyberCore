@@ -50,7 +50,7 @@ a {
 a:hover {
   background-color: #442857;
   color: #b76bff;
-  transform: perspective(100px) translateZ(5px);
+  transform: perspective(100px) translateZ(2px);
 
 }
 
