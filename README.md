@@ -1,4 +1,4 @@
-# Main-Hub
-Where I link my repositories.
+# CyberCore
+The gaming hub for all.
 
 https://realm6.github.io/CyberCore/
