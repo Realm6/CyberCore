@@ -1,8 +1,8 @@
 /* Style for the body element */
 body {
-  background-color: #F2F2F2;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+  background-color: #9d4aff;
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+  font-size: 20px;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -34,19 +34,24 @@ main {
 /* Style for the links in the main content area */
 a {
   display: block;
-  background-color: #FFF;
-  color: #333;
+  background-color: #b76bff;
+  color: #442857;
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
   border: 2px solid #333;
-  border-radius: 5px;
+  border-radius: 20px;
   transition: all 0.2s ease-in-out;
+  margin: 25px; /* Add margin to the left and right sides */
+   transform: perspective(100px) translateZ(0);
+  transition: transform 0.5s;
 }
 
 a:hover {
-  background-color: #333;
-  color: #FFF;
+  background-color: #442857;
+  color: #b76bff;
+  transform: perspective(100px) translateZ(5px);
+
 }
 
 /* Style for the bottom button */
@@ -72,4 +77,36 @@ footer {
     margin: 10px;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
+}
+
+button {
+  background-color: #4CAF50; /* Button background color */
+  border: none; /* Remove button border */
+  color: white; /* Button text color */
+  padding: 15px 32px; /* Button padding */
+  text-align: center; /* Button text alignment */
+  text-decoration: none; /* Remove underline on button text */
+  display: inline-block; /* Make the button display as an inline-block element */
+  font-size: 16px; /* Button text size */
+  margin: 20px; /* Add margin to the button */
+  position: relative; /* Position the button relatively for the 3D effect */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+button::before {
+  content: ""; /* Add an empty pseudo-element before the button */
+  position: absolute; /* Position the pseudo-element absolutely for the 3D effect */
+  top: 100%; /* Position the pseudo-element below the button */
+  left: 0; /* Position the pseudo-element on the left edge of the button */
+  width: 100%; /* Set the width of the pseudo-element to 100% of the button width */
+  height: 0; /* Set the height of the pseudo-element to 0 */
+  background-color: #3E8E41; /* Set the color of the pseudo-element to a darker shade of the button background color */
+  transition: 0.3s ease-out; /* Add a transition to the pseudo-element */
+  transform: translate3d(0, 0, 0); /* Set the initial transform of the pseudo-element to 0 */
+}
+
+button:hover::before {
+  top: 0; /* Move the pseudo-element to the top edge of the button */
+  height: 100%; /* Set the height of the pseudo-element to 100% of the button height */
+  transform: translate3d(0, -100%, 0); /* Apply a 3D transform to the pseudo-element to create a 3D effect */
 }
