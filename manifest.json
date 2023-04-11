@@ -1,0 +1,21 @@
+{
+  "name": "CyberCore by Zachary",
+  "short_name": "CyberCore",
+  "start_url": "index.html",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "18A9AFC1-5CBB-42BC-BC68-442142C56715.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "18A9AFC1-5CBB-42BC-BC68-442142C56715.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#9d4aff",
+  "background_color": "#333",
+  "display": "standalone"
+}
