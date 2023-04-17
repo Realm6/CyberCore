@@ -33,13 +33,15 @@ main {
   grid-gap: 10px;
   text-align: center;
 }
-/* Grid layout */
 .links {
   display: grid;
   grid-template-columns: auto auto;
   background-color: #262626;
   padding:0px;
   text-align: center;
+}
+.cc {
+  grid-column: 1/3;
 }
 
 /* Style for the links in the main content area */
