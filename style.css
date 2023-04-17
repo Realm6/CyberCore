@@ -33,6 +33,7 @@ main {
   grid-gap: 10px;
   text-align: center;
 }
+/* Grid layout */
 .links {
   display: grid;
   grid-template-columns: auto auto;
